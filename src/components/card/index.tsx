@@ -38,7 +38,7 @@ const Card = ({ car }: { car: CarType }) => {
         <img
           className="w-full h-full object-contain"
           src={generateImage(car)}
-          alt="car"
+          alt="car standing diagonally"
         />
       </div>
 

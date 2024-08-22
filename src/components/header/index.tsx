@@ -6,7 +6,11 @@ const Header = () => {
     <div className="w-full absolute z-10">
       <div className="max-width flex justify-between items-center px-6 py-4">
         <Link to="/">
-          <img src="/bmw.png" width={50} />
+          <img
+            src="/bmw.png"
+            width={50}
+            alt="blue and black colored circle shaped bmw logo"
+          />
         </Link>
 
         <Button title="Kaydol" designs="min-w-[130px]" />

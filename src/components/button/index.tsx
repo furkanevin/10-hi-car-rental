@@ -9,7 +9,7 @@ interface Props {
 
 const Button = ({
   title,
-  type,
+  type = "button",
   designs,
   disabled,
   icon,
@@ -24,7 +24,13 @@ const Button = ({
     >
       <span className="flex-1">{title}</span>
 
-      {icon && <img className="w-6 h-6" src={icon} />}
+      {icon && (
+        <img
+          className="w-6 h-6"
+          src={icon}
+          alt="white colored right arrow"
+        />
+      )}
     </button>
   );
 };

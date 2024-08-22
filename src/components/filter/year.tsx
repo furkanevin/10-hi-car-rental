@@ -22,8 +22,11 @@ const Year = () => {
         placeholder="ör:2023"
         type="text"
       />
-      <button>
-        <img src="right-arrow.svg" />
+      <button type="submit">
+        <img
+          className="white color arrow facing right"
+          src="right-arrow.svg"
+        />
       </button>
     </form>
   );

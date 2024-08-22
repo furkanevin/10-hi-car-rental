@@ -20,10 +20,11 @@ const Modal = ({ car, isOpen, close }: Props) => {
             className="bg-white relative p-6 max-w-lg max-h-[90vh] rounded-2xl flex flex-col gap-5 shadow-xl overflow-auto"
           >
             <button
+              type="button"
               className="cursor-pointer p-1 absolute end-1 top-1 z-10 bg-white rounded-full"
               onClick={close}
             >
-              <img src="/close.svg" />
+              <img src="/close.svg" alt="close" />
             </button>
 
             {/* fotoğraflar */}

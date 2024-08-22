@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /ozel_seyler
+
+Sitemap: https://www.furkanevin.xyz/sitemap.xml

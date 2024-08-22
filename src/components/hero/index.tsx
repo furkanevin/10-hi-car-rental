@@ -44,7 +44,7 @@ const Hero = ({ catalogueRef }: Props) => {
           transition={{ duration: 0.7 }}
           className="object-contain"
           src="/hero.png"
-          alt="bmw"
+          alt="bmw m5"
         />
       </div>
     </div>
