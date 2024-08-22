@@ -49,7 +49,7 @@ const Card = ({ car }: { car: CarType }) => {
         <div className="hidden group-hover:flex mt-[4px]">
           <Button
             title="Daha Fazla"
-            designs="w-full py-[25px]"
+            designs="w-full py-[25px] bg-yellow-500"
             icon="right-arrow.svg"
             handleClick={() => setIsOpen(true)}
           />
